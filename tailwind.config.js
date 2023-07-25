@@ -2,15 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
+    screens: {
+      sm: { min: "640px", max: "767px" },
+    },
     colors: {
-      midnight: "#121063",
+      primary: "#020617",
+      secondary: "#f8fafc",
     },
-    container: {
-      screens: {
-        "3xl": "100%",
-      },
-    },
-    extend: {},
   },
   plugins: [],
 };
